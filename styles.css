@@ -23,14 +23,34 @@ nav {
   align-items: center;
   gap: 10px;
   font-size: 1.3rem;
-  font-weight: 700;
-  color: #003366;
+  font-weight: 250;
+  color: #065D84;
 }
 
 .logo img {
   height: 45px; 
 }
 
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  margin-left: 1px;
+}
+
+.company-name{
+  font-family: Hepta Slab;
+  font-weight: 800;
+  font-size: 19.39px;
+  line-height: 100%;
+  vertical-align: middle;
+}
+
+.logo .limited {
+  color: #ff6600;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
 
 
 /* Navigation links */
@@ -44,8 +64,8 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: #003366;
-  font-weight: 500;
+  color: #065D84;
+  font-weight: 50;
   transition: all 0.3s;
   padding: 5px 0;
   position: relative;
