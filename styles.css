@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: "Rubik", "Raleway", sans-serif;
+  width: 100%;
 }
 
 header {
   background-color: #ffffff;
   border-bottom: 1px solid #191919;
-  width: 100%;
 }
 
 nav {
@@ -136,7 +136,6 @@ nav {
 
 /* Section 1 */
 .container-1 {
-  width: 100%;
   padding: 0 25px;
   margin-top: 20px;
 }
@@ -179,7 +178,6 @@ nav {
 .bottom-line {
   margin-top: 20px;
   border-bottom: 1px solid #e0e0e0;
-  width: 100%;
 }
 
 .btn {
@@ -250,7 +248,8 @@ nav {
 .service-content{
   border: 1px solid #BDB8B8;
   border-radius: 20px;
-  background-color: #eeecec;
+  background: #F3F3F3;
+
 
 }
 
@@ -413,6 +412,13 @@ nav {
 }
 
 /* Section 5 */
+.container-5 {
+  width: 100%;
+  position: relative;
+  background: #065D840D;
+  background-size: cover;
+}
+
 .clients-content p{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -427,6 +433,9 @@ nav {
 
 .clients-content-1{
   display: flex;
+  width: 1240;
+  height: 285.5;
+  gap: 150px;
 }
 
 .clients-content-1 p{
@@ -438,5 +447,13 @@ nav {
   line-height: 24px;
   letter-spacing: 0%;
   vertical-align: bottom;
+  color: #191919;
+  width: 445;
+  height: 192;
+}
 
+.clients-logos{
+  width: 645;
+  height: 223;
+  gap: 40px;
 }
