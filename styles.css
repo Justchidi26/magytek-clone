@@ -355,7 +355,7 @@ nav {
 .see-all {
   display: flex;
   justify-content: center;
-  margin-top: 55px;
+  margin-top: 30px;
   margin-bottom: 25px;
 }
 .see-all button {
@@ -518,6 +518,7 @@ nav {
 .review-avatar {
   display: flex;
   gap: 5px;
+  margin-top: 25px;
 }
 .avatar-name {
   font-family: "Raleway", sans-serif;
