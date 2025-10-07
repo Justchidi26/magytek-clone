@@ -406,7 +406,6 @@ nav {
 
 .work-gallery img {
   width: 100%;
-  /* height: 100%; */
   border-radius: 15px;
   object-fit: cover;
 }
@@ -419,11 +418,10 @@ nav {
   margin: 80px auto;
   padding: 40px;
 }
-.clients-content{
+.clients-content {
   padding-left: 50px;
   padding-right: 50px;
 }
-
 .clients-content p {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -435,14 +433,12 @@ nav {
   vertical-align: bottom;
   color: #065d84;
 }
-
 .clients-content-1 {
   display: flex;
   width: 1240;
   height: 285.5;
   gap: 150px;
 }
-
 .clients-content-1 p {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
@@ -467,12 +463,10 @@ nav {
   background-size: cover;
   margin: 90px auto;
 }
-
 .container-6-1 {
   display: flex;
   justify-content: space-between;
 }
-
 .voices-text {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -485,7 +479,6 @@ nav {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
 .voices-link {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
@@ -497,7 +490,6 @@ nav {
   color: #000000;
   margin-top: 10px;
 }
-
 .container-6-2 {
   display: flex;
   height: 300;
@@ -505,7 +497,6 @@ nav {
   gap: 30px;
   margin-top: 50px;
 }
-
 .column-1 {
   border: 0.95px solid #88888833;
   background: #ffffff;
@@ -514,7 +505,6 @@ nav {
   border-width: 0.95px;
   padding: 30px 25px;
 }
-
 .quote-1 {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
@@ -525,14 +515,10 @@ nav {
   letter-spacing: 0%;
   margin-top: 0px;
 }
-
 .review-avatar {
   display: flex;
   gap: 5px;
 }
-/* .review-avatar img{
-  border-radius: 50%;
-} */
 .avatar-name {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -628,25 +614,20 @@ nav {
 }
 
 /* Section 8*/
-.container-8{
+.container-8 {
   background: #404040;
-
 }
-.container-8-1{
+.container-8-1 {
   display: flex;
-  padding: 50px 70px;
-  gap: 70px
+  padding: 50px 40px;
+  gap: 77px;
+  width: 100%;
 }
-/* .container-8-1-1 .container-8-1-2{
-  display: grid;
-  gap: 30px;
-
-} */
-.info{
+.info {
   display: flex;
   gap: 5px;
 }
-.contact-info{
+.contact-info {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -654,9 +635,9 @@ nav {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.container-8-1-2 p{
+.container-8-1-2 p {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -665,11 +646,11 @@ nav {
   line-height: 24px;
   letter-spacing: 0%;
   vertical-align: middle;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.container-8-1-3 p{
+.container-8-1-3 p {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -678,7 +659,82 @@ nav {
   line-height: 24px;
   letter-spacing: 0%;
   vertical-align: middle;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.container-8-1-4 form {
+  border: 1px solid #ffffff;
+  width: 210;
+  height: 52px;
+  gap: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 14px 20px;
+  color: #57585a;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.container-8-1-4 button {
+  padding: 1px 25px;
+  border-top: 1px solid #f9cbcd;
+  background: #ffffff;
+  margin-top: 20px;
+  margin-left: 120px;
+  justify-content: center;
+  width: 113px;
+  height: 45px;
+  border-radius: 100px;
+  border-width: stroke weight/1;
+}
+.container-8-1-4 button p {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #161617;
+  width: 63px;
+  height: 24px;
+}
+
+/* Footer */
+footer{
+  background: #414244;
+  
+  justify-content: space-between;
+  padding: 10px 40px;
+  display: flex;
+
+}
+.footer-content p{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+.footer-content-1{
+  display: flex;
+  gap: 10px;
+}
+.footer-content-1 p{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
 }
